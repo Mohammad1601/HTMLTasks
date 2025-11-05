@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fill in your information </h1>
+    <form action="">
+        <fieldset>
+            <legend>From</legend>
+            <label for="fn">First Name:</label><br>
+            <input type="text" id="fn"name="fn">
+            
+            <br>
+            <label for="ln">Last Name:</label><br>
+            <input type="text" id="ln"name="ln">
+            
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"name="email">
+            <br> <br>
+            <label for="gender"><b>Your Gender</b></label><br><br>
+            <input type="radio" id="gender" name="male">male          
+            <input type="radio" id="gender2" name="female">female  
+            <br><br>
+            <label for="checkboxs"><b>Favorite Subject:</b></label><br>
+             <input type="checkbox" id="c1"name="c++">c++        
+             <input type="checkbox" id="c2"name="java">java        
+             <input type="checkbox" id="c3"name="c#">c#        
+             <input type="checkbox" id="c4"name="Php">PhP        
+             <input type="checkbox" id="c5"name="sql">SQL 
+             <br><br>
+             <label for="Yourcity">Your City</label><br>
+             <!-- <input list="city" id="city">  
+                <datalist id ="city">
+                  <option value="Amman">              
+                  <option value="Zarqa">               
+                  <option value="Irbid">               
+                  <option value="Salt">             
+                  <option value="Mafraq">               
+                  <option value="Jarash">               
+                  <option value="Tafelieh">               
+                  <option value="Aqaba">               
+                  </datalist> -->
+                <label for="city">City:</label><br>
+               <select id="city" name="city">
+                 <option value="irbid">Irbid</option>
+                 <option value="amman">Amman</option>
+                 <option value="zarqa">Zarqa</option>
+                 <option value="aqaba">Aqaba</option>
+               </select><br><br>
+                <label for="file">Upload image</label> 
+                <input type="file" id ="file">
+                <br><br>
+                <label for="ww">Wirte about your self</label><br><br>
+                  <textarea name="text" id="ww" cols="30" rows="10" placeholder="writehere"></textarea>
+                 <br>
+                  <input type="submit" value="submit"> 
+            </fieldset> <br>
+
+            <label for="name">Name :  </label>
+            <input type="text" id ="name"><br>
+
+            <label for="City">City :  </label>
+            <input type="text" id ="City"><br>
+
+            <label for="State">State :  </label>
+            <input type="text" id ="State"><br>
+
+            <label for="Zip code">Zip code:  </label>
+            <input type="text" id ="Zip code"><br>
+
+            
+
+            <label for="Address">Address :</label>
+            <input type="text" id ="Address"><br>
+                <label for="">magazines:</label><br>
+
+            <select name="magazines" id="magazines">
+                <option value="newsweek">newsweek</option><br>
+            </select><br>
+                <label for="">subscription</label>
+                <input type="radio" id ="1 year" >1 year
+                <input type="radio" id ="2 year" >2 years <br>
+                <input type="submit" value="submit your order">
+
+    </form>
+</body>
+</html>
